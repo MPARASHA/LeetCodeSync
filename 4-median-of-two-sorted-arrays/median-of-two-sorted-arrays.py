@@ -19,10 +19,10 @@ class Solution:
         size = len(m)
 
         if size%2 != 0:
-            print(m)
+     
             return m[size//2]
         else:
-            print(m)
+  
             return (m[(size//2) - 1] + m[(size//2)])/2
 
 
