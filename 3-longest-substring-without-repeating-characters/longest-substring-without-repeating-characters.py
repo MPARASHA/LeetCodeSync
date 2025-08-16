@@ -11,7 +11,6 @@ class Solution:
                 currLen = len(sub)
             else:
                 sub+= c
-                
                 currLen += 1
                 if currLen > maxLen:
                     maxLen = currLen
